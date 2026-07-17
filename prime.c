@@ -13,8 +13,8 @@ int main()
             flag == 0;
     }
     if (flag == 0)
-        printf("the number is not prime");
+        printf("the number is not a prime number");
     else
-        printf("the number is prime");
+        printf("the number is prime number");
     return 0;
 }

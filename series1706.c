@@ -17,10 +17,11 @@ int main()
         min = n1;
     }
     count = 0;
-    while ((max >= 0) && (count <= min))
+    while ((max >= 0))
     {
         printf("%d\n", max);
-        printf("%d\n", count);
+        if (count <= min)
+            printf("%d\n", count);
         max = max - 3;
         count = count + 3;
     }

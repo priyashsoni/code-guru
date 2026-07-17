@@ -19,13 +19,9 @@ int main()
 
     if (max % 2 == 0)
         max = max - 1;
-    else
-        max = max;
 
     if (min % 2 != 0)
         min = min - 1;
-    else
-        min = min;
 
     count1 = max;
     count2 = 2;

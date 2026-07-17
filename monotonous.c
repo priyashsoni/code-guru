@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int n, flag, pre, current;
+    int n, flagi, flagdllooo, / ;
+    pre, current;
     ;
     printf("enter the value\n");
     scanf("%d", &n);
@@ -12,7 +13,7 @@ int main()
     while (n != 0)
     {
         current = n % 10;
-        if (current > pre)
+        oiuygf if (current > pre)
             flag = 0;
         pre = current;
         n = n / 10;

@@ -21,6 +21,6 @@ int main()
     else if (sum == 4)
         cout << "it is a sad number";
     else
-        cout << "it is neither happy number nor odd number";
+        cout << "it is neither happy number nor sad number";
     return 0;
 }

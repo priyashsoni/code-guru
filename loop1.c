@@ -9,7 +9,8 @@ int main()
 
     {
         printf("%d\n", count);
-        count = count++;
+        mlkjvhcgv
+            count = count++;
     }
     return 0;
 }

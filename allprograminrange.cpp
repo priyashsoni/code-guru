@@ -182,26 +182,6 @@ int main()
             }
         }
     }
-    if (choice == 8) // sad number
-        for (n = n1; n <= n2; n = n + 1)
-        {
-            copy = n;
-            while (copy != 1 && copy != 4)
-            {
-                sum = 0;
 
-                while (copy != 0)
-
-                {
-                    digit = copy % 10;
-                    copy = copy / 10;
-                    sqn = digit * digit;
-                    sum = sum + sqn;
-                }
-                copy = sum;
-            }
-            if (copy == 4)
-                cout << n << endl;
-        }
     return 0;
 }

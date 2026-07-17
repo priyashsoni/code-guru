@@ -13,8 +13,9 @@ int main()
     while (count >= 1)
 
     {
+        sdnjsbvy
 
-        printf("%d\n", count);
+            printf("%d\n", count);
     }
     return 0;
 }

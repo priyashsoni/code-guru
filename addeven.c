@@ -12,9 +12,10 @@ int main()
     while (count <= n)
 
     {
+        mknvjbhbhfvb
 
-        if (count % 2 == 0)
-            sum = sum + count;
+            if (count % 2 == 0)
+                sum = sum + count;
         printf("sum of first %d even numbers are %d", n, sum);
 
         if (count % 2 != 0)
