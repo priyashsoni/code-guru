@@ -10,11 +10,11 @@ int main()
     cout << "The factorial = " << fact(n);
     return 0;
 }
-int fact(int x)
+int fact(int n)
 {
     int res, i;
     res = 1;
-    for (i = 1; i <= x; i++)
+    for (i = 1; i <= n; i++)
     {
         res = res * i;
     }
